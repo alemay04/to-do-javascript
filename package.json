@@ -1,5 +1,5 @@
 {
-  "name": "template-repository",
+  "name": "to-do-javascript",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alemay04/template-repository.git"
+    "url": "git+https://github.com/alemay04/to-do-javascript.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alemay04/template-repository/issues"
+    "url": "https://github.com/alemay04/to-do-javascript/issues"
   },
-  "homepage": "https://github.com/alemay04/template-repository#readme",
+  "homepage": "https://github.com/alemay04/to-do-javascript#readme",
   "description": "",
   "devDependencies": {
     "css-loader": "^7.1.2",
