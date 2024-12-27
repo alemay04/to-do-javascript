@@ -10,16 +10,37 @@
         <header>
             <h1>To-Do List App</h1>
         </header>
-        <aside>
-            <button>Home</button>
-            <button>Today</button>
-            <button>Week</button>
-            <ul>Projects</ul>
-            <button>Notes</button>
-            <button>+</button>
-        </aside>
-        <main></main>
+        <div id="app">
+            <aside>
+                <div id="baseOptions">
 
+                </div>
+                <div>
+                    <h2>Projects</h2>
+                    <ul id="projectList"></ul>
+                </div>
+                <button class="categorie">Notes</button>
+                <button id="add">+</button>
+            </aside>
+            <main id="main"></main>
+            <div id="popupForm" class="popup">
+                <div class="popup-content">
+                    <header class="popup-header">
+                        <h1>Create new...</h1>
+                        <span class="close" id="closePopup"> &times</span>
+                    </header>
+                    <div id="form-content">
+                        <aside class="form-aside">
+                            <button class="addCategorie" id="to-do-form">To Do</button>
+                            <button class="addCategorie" id="project-form">Project</button>
+                            <button class="addCategorie" id="note-form">Notes</button>
+                        </aside>
+                        <form id="form"></form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
 </html>
